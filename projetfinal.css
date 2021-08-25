@@ -1,0 +1,222 @@
+@media screen and (min-width: 768px) {
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    margin: auto;
+    scroll-behavior: smooth;
+  }
+}
+
+#navbar li {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 5%;
+  margin-left: 9px;
+  font-size: 20px;
+}
+#navbar li a {
+  text-decoration: none;
+  color: black;
+  size: 100px;
+}
+#navbar li a:hover {
+  text-decoration: underline coral;
+}
+#image1 {
+  display: flex;
+  margin-left: -15%;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -5%;
+
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 3;
+  background: hsla(0, 0%, 100%, 0.98);
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgba(255, 255, 255, 0.98);
+}
+#NOM {
+  margin-top: 2%;
+}
+#iconn {
+  width: 50px;
+  height: auto;
+}
+.carousel-slide {
+  position: relative;
+  margin-top: 5%;
+  display: flex;
+
+  height: 550px;
+  padding: auto;
+}
+#titre {
+  position: absolute;
+}
+#BienvenueaFashionStyle {
+  color: black;
+  font: 64px, Raleway, sans-serif;
+  position: absolute;
+  margin-left: 38%;
+  margin-top: 25%;
+}
+#NS {
+  color: black;
+  font: 24px, Raleway, sans-seif;
+  margin-left: 35%;
+  margin-top: 30%;
+  font-size: 24px;
+}
+#commencer {
+  position: relative;
+  color: black;
+  background-color: none;
+  margin-left: 38%;
+  margin-top: 5%;
+
+  border: none;
+  border-radius: 10%;
+  padding: 4px;
+  text-transform: uppercase;
+}
+#commencer:hover {
+  background-color: rgba(20, 174, 235, 0.945);
+  text-decoration: none;
+}
+#S1 {
+  position: absolute;
+  left: 2%;
+}
+#about {
+  text-align: center;
+  margin: 9px;
+}
+
+#S2 {
+  padding-left: 25%;
+  margin-top: 48%;
+}
+
+#Collection {
+  position: relative;
+  text-align: center;
+  margin-left: -38%;
+}
+#S2 li {
+  display: inline-block;
+  justify-content: space-around;
+}
+#TOUS {
+  position: relative;
+  margin-left: 26%;
+}
+#VETEMENT {
+  position: relative;
+  margin-left: 29%;
+}
+#CHAUSSURES {
+  position: relative;
+  margin-left: 31%;
+}
+#table1 {
+  position: absolute;
+}
+
+#src1 {
+  grid-template-rows: 100%;
+
+  justify-content: space-evenly;
+  position: relative;
+  padding-right: 50%;
+}
+#src2 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin-top: 10%;
+  margin-left: -20%;
+}
+#robe4 {
+  left: 13px;
+  top: 2%;
+
+  border-radius: 14px;
+}
+
+#ensemble1 {
+  left: 2%;
+  top: 2%;
+
+  border-radius: 14px;
+}
+#robe3 {
+  left: 2%;
+  top: 2%;
+
+  border-radius: 14px;
+}
+#v2 {
+  grid-column-start: 1;
+
+  left: 2%;
+  top: 2%;
+
+  border-radius: 14px;
+}
+#v3 {
+  grid-column-start: 2;
+
+  left: 2%;
+  top: 2%;
+
+  border-radius: 14px;
+}
+#v4 {
+  grid-column-start: 3;
+
+  left: 2%;
+  top: 2%;
+
+  border-radius: 14px;
+}
+#Contact {
+  padding-left: 5%;
+  top: 90%;
+}
+#Contactus:hover {
+  text-decoration: underline coral;
+}
+
+#Collection:hover {
+  text-decoration: underline coral;
+}
+#about:hover {
+  text-decoration: underline coral;
+}
+.Bu {
+  display: flex;
+}
+.Bu button {
+  margin: 6px;
+}
+.Bu h5 {
+  padding-top: 9px;
+}
+#P1 {
+  padding-left: 10%;
+}
+.totale1 {
+  padding-left: -2%;
+}
